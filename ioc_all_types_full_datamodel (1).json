@@ -2,5 +2,5 @@
 ,
 {"value":"9281:8df0:a3a2:4b40:2f96:f51a:5b6e:acb8","created":"2024-10-22T10:00:00Z","modified":"2022-04-09T13:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T21:18:09.59733Z","description":"active IOC","isIoc":true,"isActive":true,"labels":["ipv6_json"],"industries":["government","energy","retail"],"asn":[3],"asnOwner":["owner3"],"bik":"","operationsCount":"","lastOpDate":"","paymentSystem":""}
 ,
-{"value":"jsondomain.com","created":"2022-03-13T02:17:28Z","modified":"2024-10-22T05:00:00Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T22:18:09.59733Z","description":"active IOC","isIoc":false,"isActive":true,"labels":["domain_json"],"industries":["government","energy","retail"],"asn":[3],"asnOwner":["owner3"],"bik":"","operationsCount":"","lastOpDate":"","paymentSystem":""}
-,
+{"value":"jsondomain.com","created":"2024-10-22T05:00:00Z","modified":"2024-10-22T05:00:00Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T22:18:09.59733Z","description":"active IOC","isIoc":false,"isActive":true,"labels":["domain_json"],"industries":["government","energy","retail"],"asn":[3],"asnOwner":["owner3"],"bik":"","operationsCount":"","lastOpDate":"","paymentSystem":""}
+]
