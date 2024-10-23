@@ -2,7 +2,7 @@
 ,
 {"value":"indicator02.com","created":"2022-01-11T00:17:28Z","modified":"2022-04-09T12:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T20:18:09.59733Z","description":"active IOC","isIoc":true,"isActive":true,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["government","energy","retail"]}
 ,
-{"value":"indicator03.com","created":"2022-01-11T00:17:28Z","modified":"2022-04-09T12:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T20:18:09.59733Z","description":"active IOC","isIoc":true,"isActive":true,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["government","energy","retail"]}
+{"value":"indicator03.com","modified":"2022-04-09T12:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T20:18:09.59733Z","description":"active IOC","isIoc":true,"isActive":true,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["government","energy","retail"]}
 ,
 {"value":"indicator04.com","created":"2022-01-11T00:17:28Z","modified":"2022-04-09T12:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T20:18:09.59733Z","description":"active IOC","isIoc":true,"isActive":true,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["government","energy","retail"]}
 ]
