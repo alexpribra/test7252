@@ -9,7 +9,7 @@
       "id": "indicator--1632fe8d-df6c-4aa2-8341-97fe80446a23",
       "created": "2024-10-24T18:00:16.432Z",
       "modified": "2024-10-24T18:00:16.432Z",
-      "pattern": "[file:hashes.MD5 = '1aa4dabfd3c561f0de3b45879a80214a']",
+      "pattern": "[file:hashes.MD5 = 'indicator01.com']",
       "description": "This is a test indicator from STIX file",
       "indicator_types": [
         "unauthorized_modification"
@@ -27,7 +27,7 @@
       "id": "indicator--0933db05-6562-411b-8c86-7ef2b2cc2a13",
       "created": "2024-10-24T18:00:16.432Z",
       "modified": "2024-10-24T18:00:16.432Z",
-      "pattern": "[url:value = 'relationurl.md5']",
+      "pattern": "[url:value = 'indicator02.com']",
       "description": "This is a test indicator from STIX file",
       "indicator_types": [
         "dos",
@@ -47,7 +47,7 @@
       "id": "indicator--265b8b76-6c71-4ebc-9d49-2485f7e6ae64",
       "created": "2024-10-24T18:00:16.432Z",
       "modified": "2024-10-24T18:00:16.432Z",
-      "pattern": "[file:name = 'relationfile-md5.name']",
+      "pattern": "[file:name = 'indicator03.com']",
       "description": "This is a test indicator from STIX file",
       "indicator_types": [
         "malware",
