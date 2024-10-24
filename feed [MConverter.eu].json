@@ -1,4 +1,4 @@
-[{"value":"indicator01.com","modified":"2024-10-23T14:00:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T20:18:09.59733Z","description":"active IOC","isIoc":true,"isActive":true,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["energy","retail"]}
+[{"value":"indicator01.com","created":"2024-10-23T15:30:28Z","modified":"2024-10-23T14:00:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T20:18:09.59733Z","description":"active IOC","isIoc":true,"isActive":true,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["energy","retail"]}
 ,
 {"value":"indicator02.com","created":"2024-10-23T15:30:28Z","modified":"2022-04-09T12:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T20:18:09.59733Z","description":"active IOC","isIoc":true,"isActive":true,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["energy","retail"]}
 ,
