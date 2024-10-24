@@ -1,0 +1,84 @@
+{
+  "type": "bundle",
+  "id": "bundle--44af6c39-c09b-49c5-9de2-394224b04982",
+  "objects": [
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--1632fe8d-df6c-4aa2-8341-97fe80446a23",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:hashes.MD5 = '1aa4dabfd3c561f0de3b45879a80214a']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "unauthorized_modification"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--0933db05-6562-411b-8c86-7ef2b2cc2a13",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[url:value = 'relationurl.md5']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "dos",
+        "exploit_attempt"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--265b8b76-6c71-4ebc-9d49-2485f7e6ae64",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[file:name = 'relationfile-md5.name']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "malware",
+        "malware_cnc"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--eca24e47-2259-4850-9705-fd1065c77236",
+      "relationship_type": "indicates",
+      "created": "2014-09-09T19:58:39.609Z",
+      "modified": "2014-09-09T19:58:39.609Z",
+      "source_ref": "indicator--0933db05-6562-411b-8c86-7ef2b2cc2a13",
+      "target_ref": "indicator--1632fe8d-df6c-4aa2-8341-97fe80446a23"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--eca24e47-2259-4850-9705-fd1065c77236",
+      "relationship_type": "indicates",
+      "created": "2014-09-09T19:58:39.609Z",
+      "modified": "2014-09-09T19:58:39.609Z",
+      "source_ref": "indicator--265b8b76-6c71-4ebc-9d49-2485f7e6ae64",
+      "target_ref": "indicator--1632fe8d-df6c-4aa2-8341-97fe80446a23"
+    }  
+  ]
+}
