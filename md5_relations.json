@@ -21,24 +21,8 @@
       ]
     },
     {
-      "type": "indicator",
-      "spec_version": "2.1",
-      "pattern_type": "stix",
-      "id": "indicator--0933db05-6562-411b-8c86-7ef2b2cc2a13",
-      "created": "2024-10-24T18:00:16.432Z",
-      "modified": "2024-10-24T18:00:16.432Z",
-      "pattern": "[url:value = 'indicator02.com']",
-      "description": "This is a test indicator from STIX file",
-      "indicator_types": [
-        "dos",
-        "exploit_attempt"
-      ],
-      "valid_from": "2015-05-15T09:11:16.432678Z",
-      "valid_until": "2045-05-15T09:14:16.432678Z",
-      "labels": [
-        "stix_tag_1",
-        "stix_tag_2"
-      ]
+      
+      
     },
     {
       "type": "indicator",
