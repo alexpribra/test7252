@@ -1,0 +1,116 @@
+{
+  "type": "bundle",
+  "id": "bundle--44af6c39-c09b-49c5-9de2-394224b04982",
+  "objects": [
+    {
+      "type": "identity",
+      "spec_version": "2.1",
+      "id": "identity--acc76f6b-4a60-492e-810c-dd58c790e008",
+      "created": "2016-08-08T15:50:10.983Z",
+      "modified": "2016-08-08T15:51:10.983Z",
+      "name": "Relations Identity",
+      "description": "Test description",
+      "roles": [
+        "malware-author",
+        "agent",
+        "infrastructure-operator"
+      ],
+      "identity_class": "organization",
+      "sectors": [
+        "automotive"
+      ],
+      "contact_information": "Test contact information",
+      "external_references": [
+        {
+          "source_name": "cve",
+          "external_id": "CVE-2012-0158",
+          "description": "Threat report",
+          "url": "http://capec.mitre.org/data/definitions/550.html",
+          "hashes": {
+            "SHA-256": "6db12788c37247f2316052e142f42f4b259d6561751e5f401a1ae2a6df9c674b"
+          }
+        }
+      ],
+      "created_by_ref": "identity--f431f809-377b-45e0-aa1c-6a4751cae5ff",
+      "revoked": true,
+      "labels": [
+        "heartbleed",
+        "has-logo"
+      ],
+      "confidence": 5,
+      "lang": "en",
+      "object_marking_refs": [
+        "marking-definition--34098fce-860f-48ae-8e50-ebd3cc5e41da"
+      ],
+      "granular_markings": [
+        {
+          "selectors": [
+            "description"
+          ],
+          "lang": "de",
+          "marking_ref": "marking-definition--089a6ecb-cc15-43cc-9494-767639779123"
+        }
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--0b2b3511-5c06-4c22-813e-2bb180959e24",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[url:value = 'relationurl.identity']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "dos",
+        "exploit_attempt"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "indicator",
+      "spec_version": "2.1",
+      "pattern_type": "stix",
+      "id": "indicator--1e82c16c-ed95-4d11-87ec-925d00cab5b4",
+      "created": "2015-05-15T09:12:16.432Z",
+      "modified": "2015-05-15T09:13:16.432Z",
+      "pattern": "[domain-name:value = 'relationdomain-identity.com']",
+      "description": "This is a test indicator from STIX file",
+      "indicator_types": [
+        "malware_distribution",
+        "malware_infrastructure"
+      ],
+      "valid_from": "2015-05-15T09:11:16.432678Z",
+      "valid_until": "2045-05-15T09:14:16.432678Z",
+      "labels": [
+        "stix_tag_1",
+        "stix_tag_2"
+      ]
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--eca24e47-2259-4850-9705-fd1065c77236",
+      "relationship_type": "indicates",
+      "created": "2014-09-09T19:58:39.609Z",
+      "modified": "2014-09-09T19:58:39.609Z",
+      "source_ref": "identity--acc76f6b-4a60-492e-810c-dd58c790e008",
+      "target_ref": "indicator--1e82c16c-ed95-4d11-87ec-925d00cab5b4"
+    },
+    {
+      "type": "relationship",
+      "spec_version": "2.1",
+      "id": "relationship--eca24e47-2259-4850-9705-fd1065c77236",
+      "relationship_type": "indicates",
+      "created": "2014-09-09T19:58:39.609Z",
+      "modified": "2014-09-09T19:58:39.609Z",
+      "source_ref": "identity--acc76f6b-4a60-492e-810c-dd58c790e008",
+      "target_ref": "indicator--0b2b3511-5c06-4c22-813e-2bb180959e24"
+    }  
+  ]
+}
