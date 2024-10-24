@@ -1,0 +1,26 @@
+[{"value":"jsonindicator01.com","created":"2022-01-11T00:17:28Z","modified":"2022-04-09T12:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T20:18:09.59733Z","description":"active IOC","isIoc":true,"isActive":true,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["government","energy","retail"]}
+,
+{"value":"jsonindicator02.com","created":"2022-02-12T01:17:28Z","modified":"2022-04-09T13:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T21:18:09.59733Z","description":"inacive IOC","isIoc":true,"isActive":false,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["government","energy","retail"]}
+,
+{"value":"jsonindicator03.com","created":"2022-03-13T02:17:28Z","modified":"2022-04-09T14:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T22:18:09.59733Z","description":"active observable","isIoc":false,"isActive":true,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["government","energy","retail"]}
+,
+{"value":"jsonindicator04.com","created":"2022-04-14T03:17:28Z","modified":"2022-04-09T15:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T23:18:09.59733Z","description":"inactive observable","isIoc":false,"isActive":false,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["government","energy","retail"]}
+,
+{"value":"jsonindicator05.com","created":"2022-05-15T04:17:28Z","modified":"2022-04-09T16:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T23:18:09.59733Z","description":"IOC, active by default","isIoc":true,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["government","energy","retail"]}
+,
+{"value":"jsonindicator06.com","created":"2022-06-16T05:17:28Z","modified":"2022-04-09T17:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T23:18:09.59733Z","description":"Observable, active by default","isIoc":false,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["government","energy","retail"]}
+,
+{"value":"jsonindicator07.com","created":"2022-07-17T06:17:28Z","modified":"2022-04-09T18:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T23:18:09.59733Z","description":"Active, IOC by default","isActive":true,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["government","energy","retail"]}
+,
+{"value":"jsonindicator08.com","created":"2022-08-18T07:17:28Z","modified":"2022-04-09T19:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T23:18:09.59733Z","description":"Inactive, IOC by default","isActive":false,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["government","energy","retail"]}
+,
+{"value":"jsonindicator09.com","created":"2022-09-19T08:17:28Z","modified":"2022-04-09T20:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T23:18:09.59733Z","description":"IOC by default, active by default","labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["government","energy","retail"]}
+,
+{"value":"jsonindicator10.com","created":"2022-10-20T09:17:28Z","modified":"2022-04-09T21:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T23:18:09.59733Z","description":"IOC by default, active by default, industry not from the list","labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["I","don't","know","what","that","is"]}
+,
+{"value":"jsonindicator11.com","created":"2022-11-21T10:17:28Z","modified":"2022-04-09T22:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T23:18:09.59733Z","description":"IOC by default, active by default, industry not from the list 2","labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["that","is","something"]}
+,
+{"value":"jsonindicator12.com","created":"2022-12-22T11:17:28Z","modified":"2022-04-09T23:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T23:18:09.59733Z","description":"IOC by default, active by default, industry not from the list 3","labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["Lol"]}
+,
+{"value":"jsonindicator13.com","created":"2022-08-18T07:17:28Z","modified":"2022-04-09T19:17:28Z","firstSeen":"2022-05-09T12:17:28Z","lastSeen":"2023-07-11T23:18:09.59733Z","description":"Inactive, IOC by default","isActive":false,"labels":["esc:sandbox","from:esc","sandbox:trojan","trojan:generic"],"industries":["government","energy","retail"]}
+]
