@@ -28,7 +28,7 @@ function run() {
     let new_obj = JSON.parse(obj);
     new_obj["flt-policy"] = rand_ip();
     if (process.env.NUM == "1" && i == 0) {
-      new_obj["acc-ip"] = ioc1;
+      new_obj["acc-ip"] = 216.219.87.41;
     } else if (process.env.NUM == "2" && i == 0) {
       new_obj["acc-ip"] = ioc2;
     } else {
